@@ -1,5 +1,5 @@
 wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
-tar -xf boost_1_69_0.tar.gz //"-xf"<->extarxt all files
+tar -xvzf boost_1_69_0.tar.gz //"-xf"<->extarxt all files
 sudo apt install tree
 cd /home/rhinoloige/boost_1_69_0/
 tree -a -L 1 //"-a"<->all files; "-L 1"<->Descend only level directories deep
